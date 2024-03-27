@@ -12,7 +12,7 @@ function App() {
       <DrawerMenu />
       <Routes>
         <Route  path='/contest' element={<Contests />} />
-        <Route path='/*' element={<Participants />} />
+        <Route path='/participants' element={<Participants />} />
         <Route path='*' element={<Start />}/>
       </Routes>
     </div>
