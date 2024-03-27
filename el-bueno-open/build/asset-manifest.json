@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/El-bueno-open/static/css/main.891f11c3.css",
+    "main.js": "/El-bueno-open/static/js/main.51d25dd3.js",
+    "static/js/453.46b7ca75.chunk.js": "/El-bueno-open/static/js/453.46b7ca75.chunk.js",
+    "static/media/egson.png": "/El-bueno-open/static/media/egson.b1e6a61138278afada69.png",
+    "static/media/abbe.png": "/El-bueno-open/static/media/abbe.4de09d7fe9c480807df4.png",
+    "static/media/mattis.png": "/El-bueno-open/static/media/mattis.6dba2117a85626d1bae3.png",
+    "static/media/gurra.png": "/El-bueno-open/static/media/gurra.da25bd96668a8c5a4885.png",
+    "static/media/keh.png": "/El-bueno-open/static/media/keh.8f88b6f52051b72631c5.png",
+    "static/media/olp.png": "/El-bueno-open/static/media/olp.56eb872c39698f7280be.png",
+    "index.html": "/El-bueno-open/index.html",
+    "main.891f11c3.css.map": "/El-bueno-open/static/css/main.891f11c3.css.map",
+    "main.51d25dd3.js.map": "/El-bueno-open/static/js/main.51d25dd3.js.map",
+    "453.46b7ca75.chunk.js.map": "/El-bueno-open/static/js/453.46b7ca75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.891f11c3.css",
+    "static/js/main.51d25dd3.js"
+  ]
+}

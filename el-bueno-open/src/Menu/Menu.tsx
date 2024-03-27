@@ -2,7 +2,7 @@ import {  useNavigate, } from 'react-router-dom';
 import './menu.css'
 import { useState } from 'react';
 import { IconButton, Stack, Tooltip, Menu, MenuItem, ListItemIcon, Typography } from '@mui/material';
-import { EventNote, GolfCourse, Groups3, Home } from '@mui/icons-material';
+import { GolfCourse, Groups3, Home } from '@mui/icons-material';
 import MenuIcon from '@mui/icons-material/Menu';
 
 export const DrawerMenu = () => {
