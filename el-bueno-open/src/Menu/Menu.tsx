@@ -2,7 +2,7 @@ import {  useNavigate, } from 'react-router-dom';
 import './menu.css'
 import { useState } from 'react';
 import { IconButton, Stack, Tooltip, Menu, MenuItem, ListItemIcon, Typography, Divider } from '@mui/material';
-import { GolfCourse, Groups3, Home } from '@mui/icons-material';
+import { EventNote, GolfCourse, Groups3, Home } from '@mui/icons-material';
 import MenuIcon from '@mui/icons-material/Menu';
 
 export const DrawerMenu = () => {
@@ -66,18 +66,18 @@ export const DrawerMenu = () => {
                     </ListItemIcon>
                     Start
                 </MenuItem>
+                <MenuItem onClick={() => { handleClose(); navigate('/event')}}>
+                    <ListItemIcon>
+                        <EventNote fontSize="small" />
+                    </ListItemIcon>
+                    Upplägg
+                </MenuItem>
                 <MenuItem onClick={() => { handleClose(); navigate('/contest')}}>
                     <ListItemIcon>
                         <GolfCourse fontSize="small" />
                     </ListItemIcon>
                     Tävlingar
                 </MenuItem>
-                {/* <MenuItem onClick={() => { handleClose(); navigate('/event')}}>
-                    <ListItemIcon>
-                        <EventNote fontSize="small" />
-                    </ListItemIcon>
-                    Upplägg
-                </MenuItem> */}
                 <MenuItem onClick={() => { handleClose(); navigate('/participants')}}>
                     <ListItemIcon>
                         <Groups3 fontSize="small" />
